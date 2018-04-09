@@ -60,8 +60,7 @@ class ViewController: NSViewController {
     
     @IBAction func startAppleScript(_ sender: Any) {
         guard let scriptPath = Bundle.main.path(forResource: "AppleScriptDemo", ofType: "scpt") else { return }
-        guard let osascriptPath = Bundle.main.path(forResource: "osascript", ofType: nil) else { return }
-        let task = Process.launchedProcess(launchPath: osascriptPath, arguments: [scriptPath])
+        let task = Process.launchedProcess(launchPath: "/usr/bin/osascript", arguments: [scriptPath])
         task.waitUntilExit()
     }
 
