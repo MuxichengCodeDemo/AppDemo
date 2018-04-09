@@ -17,6 +17,8 @@
 		79744D06207B45A200B948DE /* HelpIndexDemo.html in Resources */ = {isa = PBXBuildFile; fileRef = 79744D03207B45A200B948DE /* HelpIndexDemo.html */; };
 		79744D07207B45A200B948DE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79744D04207B45A200B948DE /* Info.plist */; };
 		79744D08207B45A200B948DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79744D05207B45A200B948DE /* InfoPlist.strings */; };
+		79744CEE207B367300B948DE /* AppleScriptDemo.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 79744CED207B367300B948DE /* AppleScriptDemo.applescript */; };
+		79744CF0207B390400B948DE /* osascript in Resources */ = {isa = PBXBuildFile; fileRef = 79744CEF207B390400B948DE /* osascript */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		79744D03207B45A200B948DE /* HelpIndexDemo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = HelpIndexDemo.html; sourceTree = "<group>"; };
 		79744D04207B45A200B948DE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79744D05207B45A200B948DE /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		79744CED207B367300B948DE /* AppleScriptDemo.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = AppleScriptDemo.applescript; sourceTree = "<group>"; };
+		79744CEF207B390400B948DE /* osascript */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = osascript; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				79744CC7207B355C00B948DE /* Main.storyboard */,
 				79744CCA207B355C00B948DE /* Info.plist */,
 				79744CF3207B3AFC00B948DE /* Resource */,
+				79744CEC207B367300B948DE /* Resource */,
 			);
 			path = AppDemo;
 			sourceTree = "<group>";
@@ -136,6 +141,11 @@
 			children = (
 				79744D02207B45A200B948DE /* HelpFileDemo */,
 				79744CF4207B3AFC00B948DE /* CreateHelpIndex.applescript */,
+		79744CEC207B367300B948DE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				79744CED207B367300B948DE /* AppleScriptDemo.applescript */,
+				79744CEF207B390400B948DE /* osascript */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -150,8 +160,8 @@
 			path = HelpFileDemo;
 			sourceTree = "<group>";
 		};
-/* End PBXGroup section */
 
+/* End PBXGroup section */
 /* Begin PBXNativeTarget section */
 		79744CBD207B355C00B948DE /* AppDemo */ = {
 			isa = PBXNativeTarget;
@@ -261,6 +271,7 @@
 				79744D07207B45A200B948DE /* Info.plist in Resources */,
 				79744D06207B45A200B948DE /* HelpIndexDemo.html in Resources */,
 				79744CC6207B355C00B948DE /* Assets.xcassets in Resources */,
+				79744CF0207B390400B948DE /* osascript in Resources */,
 				79744CC9207B355C00B948DE /* Main.storyboard in Resources */,
 				79744D08207B45A200B948DE /* InfoPlist.strings in Resources */,
 			);
@@ -289,6 +300,7 @@
 			files = (
 				79744CF5207B3AFC00B948DE /* CreateHelpIndex.applescript in Sources */,
 				79744CC4207B355C00B948DE /* ViewController.swift in Sources */,
+				79744CEE207B367300B948DE /* AppleScriptDemo.applescript in Sources */,
 				79744CC2207B355C00B948DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

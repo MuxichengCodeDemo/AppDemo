@@ -690,11 +690,16 @@
                                 <rect key="frame" x="311" y="222" width="128" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="创建HelpIndex" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="eOs-6j-ZdP">
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lyh-Go-FcJ">
+                                <rect key="frame" x="14" y="222" width="148" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="调用AppleScript" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xlM-Tu-5W7">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="createHelpIndex:" target="XfG-lQ-9wD" id="nGZ-W7-Upb"/>
+                                    <action selector="startAppleScript:" target="XfG-lQ-9wD" id="H2H-d2-0Ic"/>
                                 </connections>
                             </button>
                         </subviews>
