@@ -13,6 +13,8 @@
 		79744CC9207B355C00B948DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79744CC7207B355C00B948DE /* Main.storyboard */; };
 		79744CD4207B355C00B948DE /* AppDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79744CD3207B355C00B948DE /* AppDemoTests.swift */; };
 		79744CDF207B355C00B948DE /* AppDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79744CDE207B355C00B948DE /* AppDemoUITests.swift */; };
+		79744CEE207B367300B948DE /* AppleScriptDemo.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 79744CED207B367300B948DE /* AppleScriptDemo.applescript */; };
+		79744CF0207B390400B948DE /* osascript in Resources */ = {isa = PBXBuildFile; fileRef = 79744CEF207B390400B948DE /* osascript */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		79744CDA207B355C00B948DE /* AppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79744CDE207B355C00B948DE /* AppDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDemoUITests.swift; sourceTree = "<group>"; };
 		79744CE0207B355C00B948DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79744CED207B367300B948DE /* AppleScriptDemo.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = AppleScriptDemo.applescript; sourceTree = "<group>"; };
+		79744CEF207B390400B948DE /* osascript */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = osascript; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 				79744CC5207B355C00B948DE /* Assets.xcassets */,
 				79744CC7207B355C00B948DE /* Main.storyboard */,
 				79744CCA207B355C00B948DE /* Info.plist */,
+				79744CEC207B367300B948DE /* Resource */,
 			);
 			path = AppDemo;
 			sourceTree = "<group>";
@@ -120,6 +125,15 @@
 				79744CE0207B355C00B948DE /* Info.plist */,
 			);
 			path = AppDemoUITests;
+			sourceTree = "<group>";
+		};
+		79744CEC207B367300B948DE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				79744CED207B367300B948DE /* AppleScriptDemo.applescript */,
+				79744CEF207B390400B948DE /* osascript */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79744CC6207B355C00B948DE /* Assets.xcassets in Resources */,
+				79744CF0207B390400B948DE /* osascript in Resources */,
 				79744CC9207B355C00B948DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79744CC4207B355C00B948DE /* ViewController.swift in Sources */,
+				79744CEE207B367300B948DE /* AppleScriptDemo.applescript in Sources */,
 				79744CC2207B355C00B948DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +514,7 @@
 				79744CE5207B355C00B948DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79744CE6207B355C00B948DE /* Build configuration list for PBXNativeTarget "AppDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +523,7 @@
 				79744CE8207B355C00B948DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79744CE9207B355C00B948DE /* Build configuration list for PBXNativeTarget "AppDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +532,7 @@
 				79744CEB207B355C00B948DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
